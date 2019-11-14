@@ -131,8 +131,8 @@ extension BulletinViewController {
         closeButton.heightAnchor.constraint(equalToConstant: 44).isActive = true
         closeButton.widthAnchor.constraint(equalToConstant: 44).isActive = true
         closeButton.translatesAutoresizingMaskIntoConstraints = false
-        closeButton.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20).isActive = true
-        closeButton.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: -20).isActive = true
+        closeButton.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 13).isActive = true
+        closeButton.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 12).isActive = true
         closeButton.isUserInteractionEnabled = true
         
         closeButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
