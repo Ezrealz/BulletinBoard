@@ -45,7 +45,7 @@ class BulletinCloseButton: UIControl, HighlighterTarget {
         addSubview(backgroundContainer)
         addSubview(closeGlyph)
 
-        backgroundContainer.layer.cornerRadius = 14
+        backgroundContainer.layer.cornerRadius = 15
 
         let glyph = UIImage(named: "CloseGlyph", in: Bundle(for: BulletinCloseButton.self), compatibleWith: nil)!
         closeGlyph.image = glyph.withRenderingMode(.alwaysTemplate)
@@ -61,13 +61,13 @@ class BulletinCloseButton: UIControl, HighlighterTarget {
         backgroundContainer.translatesAutoresizingMaskIntoConstraints = false
         closeGlyph.translatesAutoresizingMaskIntoConstraints = false
 
-        backgroundContainer.widthAnchor.constraint(equalToConstant: 28).isActive = true
-        backgroundContainer.heightAnchor.constraint(equalToConstant: 28).isActive = true
+        backgroundContainer.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        backgroundContainer.heightAnchor.constraint(equalToConstant: 30).isActive = true
         backgroundContainer.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         backgroundContainer.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
 
-        closeGlyph.widthAnchor.constraint(equalToConstant: 25).isActive = true
-        closeGlyph.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        closeGlyph.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        closeGlyph.heightAnchor.constraint(equalToConstant: 30).isActive = true
         closeGlyph.centerXAnchor.constraint(equalTo: backgroundContainer.centerXAnchor).isActive = true
         closeGlyph.centerYAnchor.constraint(equalTo: backgroundContainer.centerYAnchor).isActive = true
 
