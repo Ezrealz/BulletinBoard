@@ -21,9 +21,6 @@
 		558D808B218DC5B6000ADAFD /* BLTNBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* BLTNBoard.framework */; };
 		558D8093218DCA81000ADAFD /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558D8092218DCA81000ADAFD /* FBSnapshotTestCase.framework */; };
 		558D8095218DCA98000ADAFD /* FBSnapshotTestCase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 558D8092218DCA81000ADAFD /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5590C04B20B852150045C315 /* CloseGlyph.png in Resources */ = {isa = PBXBuildFile; fileRef = 5590C04820B852150045C315 /* CloseGlyph.png */; };
-		5590C04C20B852150045C315 /* CloseGlyph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5590C04920B852150045C315 /* CloseGlyph@2x.png */; };
-		5590C04D20B852150045C315 /* CloseGlyph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5590C04A20B852150045C315 /* CloseGlyph@3x.png */; };
 		5590C04F20B85BCE0045C315 /* BLTNTitleLabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590C04E20B85BCE0045C315 /* BLTNTitleLabelContainer.swift */; };
 		5590C05120B934230045C315 /* Highlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590C05020B934230045C315 /* Highlighter.swift */; };
 		5590C05320B93B350045C315 /* UIColor+Luminance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590C05220B93B350045C315 /* UIColor+Luminance.swift */; };
@@ -48,6 +45,9 @@
 		55E8622020B84F3100584EAC /* BulletinCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E8621F20B84F3100584EAC /* BulletinCloseButton.swift */; };
 		55FA45CA1FED1DE40084B6A0 /* BLTNSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA45C91FED1DE40084B6A0 /* BLTNSpacing.swift */; };
 		5E9D326D2108FCED0032FB06 /* BLTNBoardSwiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9D326C2108FCED0032FB06 /* BLTNBoardSwiftSupport.h */; };
+		FC6D7D57237D00D900F6C2C2 /* CloseGlyph.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D7D54237D00D800F6C2C2 /* CloseGlyph.png */; };
+		FC6D7D58237D00D900F6C2C2 /* CloseGlyph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D7D55237D00D800F6C2C2 /* CloseGlyph@3x.png */; };
+		FC6D7D59237D00D900F6C2C2 /* CloseGlyph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D7D56237D00D900F6C2C2 /* CloseGlyph@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,9 +90,6 @@
 		558D8088218DC5B6000ADAFD /* BLTNBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLTNBoardTests.swift; sourceTree = "<group>"; };
 		558D808A218DC5B6000ADAFD /* BLTNBoardTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BLTNBoardTests.plist; sourceTree = "<group>"; };
 		558D8092218DCA81000ADAFD /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
-		5590C04820B852150045C315 /* CloseGlyph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseGlyph.png; sourceTree = "<group>"; };
-		5590C04920B852150045C315 /* CloseGlyph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseGlyph@2x.png"; sourceTree = "<group>"; };
-		5590C04A20B852150045C315 /* CloseGlyph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseGlyph@3x.png"; sourceTree = "<group>"; };
 		5590C04E20B85BCE0045C315 /* BLTNTitleLabelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLTNTitleLabelContainer.swift; sourceTree = "<group>"; };
 		5590C05020B934230045C315 /* Highlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlighter.swift; sourceTree = "<group>"; };
 		5590C05220B93B350045C315 /* UIColor+Luminance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Luminance.swift"; sourceTree = "<group>"; };
@@ -152,6 +149,9 @@
 		5E9D32682108FB9A0032FB06 /* BulletinBoard.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BulletinBoard.podspec; sourceTree = "<group>"; };
 		5E9D326C2108FCED0032FB06 /* BLTNBoardSwiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTNBoardSwiftSupport.h; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* BLTNBoard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BLTNBoard.plist; sourceTree = "<group>"; };
+		FC6D7D54237D00D800F6C2C2 /* CloseGlyph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseGlyph.png; sourceTree = "<group>"; };
+		FC6D7D55237D00D800F6C2C2 /* CloseGlyph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseGlyph@3x.png"; sourceTree = "<group>"; };
+		FC6D7D56237D00D900F6C2C2 /* CloseGlyph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseGlyph@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,10 +331,10 @@
 		55E8621C20B84DE500584EAC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FC6D7D54237D00D800F6C2C2 /* CloseGlyph.png */,
+				FC6D7D56237D00D900F6C2C2 /* CloseGlyph@2x.png */,
+				FC6D7D55237D00D800F6C2C2 /* CloseGlyph@3x.png */,
 				5590C05720B93F610045C315 /* Strings */,
-				5590C04820B852150045C315 /* CloseGlyph.png */,
-				5590C04920B852150045C315 /* CloseGlyph@2x.png */,
-				5590C04A20B852150045C315 /* CloseGlyph@3x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -485,10 +485,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5590C04D20B852150045C315 /* CloseGlyph@3x.png in Resources */,
-				5590C04B20B852150045C315 /* CloseGlyph.png in Resources */,
+				FC6D7D59237D00D900F6C2C2 /* CloseGlyph@2x.png in Resources */,
 				5590C05420B93F3A0045C315 /* Localizable.strings in Resources */,
-				5590C04C20B852150045C315 /* CloseGlyph@2x.png in Resources */,
+				FC6D7D57237D00D900F6C2C2 /* CloseGlyph.png in Resources */,
+				FC6D7D58237D00D900F6C2C2 /* CloseGlyph@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

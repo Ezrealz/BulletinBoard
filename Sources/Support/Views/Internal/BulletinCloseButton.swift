@@ -66,8 +66,8 @@ class BulletinCloseButton: UIControl, HighlighterTarget {
         backgroundContainer.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         backgroundContainer.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
 
-        closeGlyph.widthAnchor.constraint(equalToConstant: 12).isActive = true
-        closeGlyph.heightAnchor.constraint(equalToConstant: 12).isActive = true
+        closeGlyph.widthAnchor.constraint(equalToConstant: 25).isActive = true
+        closeGlyph.heightAnchor.constraint(equalToConstant: 25).isActive = true
         closeGlyph.centerXAnchor.constraint(equalTo: backgroundContainer.centerXAnchor).isActive = true
         closeGlyph.centerYAnchor.constraint(equalTo: backgroundContainer.centerYAnchor).isActive = true
 
@@ -78,10 +78,10 @@ class BulletinCloseButton: UIControl, HighlighterTarget {
     func updateColors(isDarkBackground: Bool) {
         if isDarkBackground {
             backgroundContainer.backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9607843137, blue: 0.9607843137, alpha: 1)
-            closeGlyph.tintColor = #colorLiteral(red: 0.3764705882, green: 0.3921568627, blue: 0.431372549, alpha: 1)
+            closeGlyph.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         } else {
-            backgroundContainer.backgroundColor = #colorLiteral(red: 0.3764705882, green: 0.3921568627, blue: 0.431372549, alpha: 1)
-            closeGlyph.tintColor = #colorLiteral(red: 0.9529411765, green: 0.9607843137, blue: 0.9607843137, alpha: 1)
+            backgroundContainer.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+            closeGlyph.tintColor = #colorLiteral(red: 0.1294117647, green: 0.2274509804, blue: 0.3529411765, alpha: 1)
         }
     }
 
